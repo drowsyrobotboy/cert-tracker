@@ -4,6 +4,8 @@ import os
 import subprocess
 import sys
 import OpenSSL
+import json
+from flask import Flask, request, jsonify
 
 # Define the Cert class
 class Cert:
@@ -27,8 +29,20 @@ for x in dist_arr:
     with open(x, "r") as cert_file:
         cert_text = cert_file.read()
         x509 = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM, cert_text)
+    # append the json version of Cert object to the array. Using .__dict_ to convert the object to json_
+    ct = Cert(x,x509.get_notAfter().decode('utf-8'))
+    arr.append(json.dumps(ct.__dict__))
+# Printing on console
+#
+#for c in arr:
+#    print(c.name, c.expiry)
 
-    arr.append(Cert(x,x509.get_notAfter().decode('utf-8')))
+# Web using Flaskapp
+app = Flask(__name__)
+app.config["DEBUG"] = True
 
-for c in arr:
-    print(c.name, c.expiry)
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify(json.dumps(arr))
+
+app.run()
