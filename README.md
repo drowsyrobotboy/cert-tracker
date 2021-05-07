@@ -1,8 +1,8 @@
-# Cert Tracker
+# Cert Tracker (Pepper)
 ## Tracking certificates in httpd-ssl.conf
 
 - Takes httpd-ssl.conf file as input
-- Starts a HTTP server at 5000 with JSON data
+- Generates JSON file in `html/` folder using python code in `py/pepper.log`
 
 ## 🔜 TODO
 
