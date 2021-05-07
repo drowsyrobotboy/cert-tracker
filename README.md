@@ -5,8 +5,4 @@
 - Generates JSON file in `html/` folder using python code in `py/pepper.log`
 
 ## 🔜 TODO
-
-- Config file
-    - read httpd-ssl.conf location
-    - read port number
-    - read hostname
+  - update UI
