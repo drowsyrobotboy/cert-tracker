@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
+# This one is out-dated
+
 import os
 import subprocess
 import sys
-import signal
 import OpenSSL
 import ssl, socket
 from flask import Flask, request, json, jsonify
@@ -26,7 +27,7 @@ arr = [] # empty the original array to fill with Cert objects
 
 for x in dist_arr:
     x = x.strip()
-    print("\n⏲️ Fetching cert: "+ x);
+    print("\u25B6\uFE0F Fetching cert: "+ x);
     try:
         cert_text=ssl.get_server_certificate((x.split(":")[0], x.split(":")[1]))
         x509 = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM, cert_text)
@@ -36,7 +37,7 @@ for x in dist_arr:
         arr.append(ct.__dict__)
         print("✅ Done!")
     except:
-        print("🚨 Error in fetching cert for: "+x+" ... Skipping ")
+        print("🚨 Error in fetching cert for: "+x+" ... Skipping")
 
 # Web using Flaskapp
 app = Flask(__name__)

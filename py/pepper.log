@@ -1,0 +1,114 @@
+2021-05-07 12:46:14,637 INFO ▶️ Fetching cert: bh.maruthisharma.com:443
+2021-05-07 12:46:14,929 INFO ✅ Done!
+2021-05-07 12:46:14,929 INFO ▶️ Fetching cert: creativetinge.com:443
+2021-05-07 12:46:15,460 ERROR 🚨 Error in fetching cert for: creativetinge.com:443 ... Skipping
+2021-05-07 12:46:15,461 INFO ▶️ Fetching cert: npdbelectricals.com:443
+2021-05-07 12:46:15,548 INFO ✅ Done!
+2021-05-07 12:46:15,549 INFO ▶️ Fetching cert: az.maruthisharma.com:443
+2021-05-07 12:46:15,640 INFO ✅ Done!
+2021-05-07 12:46:15,641 INFO ▶️ Fetching cert: quadrupoleindia.com:443
+2021-05-07 12:46:15,729 INFO ✅ Done!
+2021-05-07 12:46:15,729 INFO ▶️ Fetching cert: groupske.com:443
+2021-05-07 12:46:15,818 INFO ✅ Done!
+2021-05-07 12:46:15,818 INFO ▶️ Fetching cert: kitchenz.co.in:443
+2021-05-07 12:46:15,907 INFO ✅ Done!
+2021-05-07 12:46:15,907 INFO ▶️ Fetching cert: www.quadrupoleindia.com:443
+2021-05-07 12:46:15,986 INFO ✅ Done!
+2021-05-07 12:46:15,986 INFO ▶️ Fetching cert: www.kitchenz.co.in:443
+2021-05-07 12:46:16,064 INFO ✅ Done!
+2021-05-07 12:46:16,064 INFO ▶️ Fetching cert: www.bsaicharan.com:443
+2021-05-07 12:46:16,155 INFO ✅ Done!
+2021-05-07 12:46:16,156 INFO ▶️ Fetching cert: nagrins.in:443
+2021-05-07 12:46:16,248 INFO ✅ Done!
+2021-05-07 12:46:16,248 INFO ▶️ Fetching cert: www.maruthisharma.com:443
+2021-05-07 12:46:16,333 INFO ✅ Done!
+2021-05-07 12:46:16,333 INFO ▶️ Fetching cert: blog.maruthisharma.com:443
+2021-05-07 12:46:16,481 INFO ✅ Done!
+2021-05-07 12:46:16,482 INFO ▶️ Fetching cert: www.npdbelectricals.com:443
+2021-05-07 12:46:16,572 INFO ✅ Done!
+2021-05-07 12:46:16,572 INFO ▶️ Fetching cert: www.groupske.com:443
+2021-05-07 12:46:16,649 INFO ✅ Done!
+2021-05-07 12:46:16,649 INFO ▶️ Fetching cert: www.creativetinge.com:443
+2021-05-07 12:46:17,150 ERROR 🚨 Error in fetching cert for: www.creativetinge.com:443 ... Skipping
+2021-05-07 12:46:17,151 INFO ▶️ Fetching cert: bsaicharan.com:443
+2021-05-07 12:46:17,237 INFO ✅ Done!
+2021-05-07 12:46:17,238 INFO ▶️ Fetching cert: www.nagrins.in:443
+2021-05-07 12:46:17,317 INFO ✅ Done!
+2021-05-07 12:46:17,317 INFO ▶️ Fetching cert: lab.maruthisharma.com:443
+2021-05-07 12:46:17,406 INFO ✅ Done!
+2021-05-07 12:48:31,438 INFO ▶️ Fetching cert: www.bsaicharan.com:443
+2021-05-07 12:48:31,740 INFO ✅ Done!
+2021-05-07 12:48:31,740 INFO ▶️ Fetching cert: www.groupske.com:443
+2021-05-07 12:48:31,825 INFO ✅ Done!
+2021-05-07 12:48:31,825 INFO ▶️ Fetching cert: bsaicharan.com:443
+2021-05-07 12:48:31,906 INFO ✅ Done!
+2021-05-07 12:48:31,906 INFO ▶️ Fetching cert: groupske.com:443
+2021-05-07 12:48:31,987 INFO ✅ Done!
+2021-05-07 12:48:31,987 INFO ▶️ Fetching cert: www.maruthisharma.com:443
+2021-05-07 12:48:32,064 INFO ✅ Done!
+2021-05-07 12:48:32,064 INFO ▶️ Fetching cert: quadrupoleindia.com:443
+2021-05-07 12:48:32,308 INFO ✅ Done!
+2021-05-07 12:48:32,308 INFO ▶️ Fetching cert: nagrins.in:443
+2021-05-07 12:48:32,466 INFO ✅ Done!
+2021-05-07 12:48:32,466 INFO ▶️ Fetching cert: bh.maruthisharma.com:443
+2021-05-07 12:48:32,601 INFO ✅ Done!
+2021-05-07 12:48:32,601 INFO ▶️ Fetching cert: lab.maruthisharma.com:443
+2021-05-07 12:48:32,696 INFO ✅ Done!
+2021-05-07 12:48:32,696 INFO ▶️ Fetching cert: creativetinge.com:443
+2021-05-07 12:48:33,382 ERROR 🚨 Error in fetching cert for: creativetinge.com:443 ... Skipping
+2021-05-07 12:48:33,382 INFO ▶️ Fetching cert: www.creativetinge.com:443
+2021-05-07 12:48:34,062 ERROR 🚨 Error in fetching cert for: www.creativetinge.com:443 ... Skipping
+2021-05-07 12:48:34,062 INFO ▶️ Fetching cert: www.npdbelectricals.com:443
+2021-05-07 12:48:34,137 INFO ✅ Done!
+2021-05-07 12:48:34,137 INFO ▶️ Fetching cert: www.quadrupoleindia.com:443
+2021-05-07 12:48:34,368 INFO ✅ Done!
+2021-05-07 12:48:34,368 INFO ▶️ Fetching cert: az.maruthisharma.com:443
+2021-05-07 12:48:34,599 INFO ✅ Done!
+2021-05-07 12:48:34,599 INFO ▶️ Fetching cert: www.nagrins.in:443
+2021-05-07 12:48:34,818 INFO ✅ Done!
+2021-05-07 12:48:34,819 INFO ▶️ Fetching cert: npdbelectricals.com:443
+2021-05-07 12:48:34,903 INFO ✅ Done!
+2021-05-07 12:48:34,903 INFO ▶️ Fetching cert: www.kitchenz.co.in:443
+2021-05-07 12:48:35,084 INFO ✅ Done!
+2021-05-07 12:48:35,084 INFO ▶️ Fetching cert: kitchenz.co.in:443
+2021-05-07 12:48:35,163 INFO ✅ Done!
+2021-05-07 12:48:35,163 INFO ▶️ Fetching cert: blog.maruthisharma.com:443
+2021-05-07 12:48:35,445 INFO ✅ Done!
+2021-05-07 12:59:43,725 INFO ▶️ Fetching cert: npdbelectricals.com:443
+2021-05-07 12:59:43,812 INFO ✅ Done!
+2021-05-07 12:59:43,812 INFO ▶️ Fetching cert: creativetinge.com:443
+2021-05-07 12:59:44,540 ERROR 🚨 Error in fetching cert for: creativetinge.com:443 ... Skipping
+2021-05-07 12:59:44,540 INFO ▶️ Fetching cert: www.bsaicharan.com:443
+2021-05-07 12:59:44,855 INFO ✅ Done!
+2021-05-07 12:59:44,855 INFO ▶️ Fetching cert: www.kitchenz.co.in:443
+2021-05-07 12:59:45,208 INFO ✅ Done!
+2021-05-07 12:59:45,208 INFO ▶️ Fetching cert: www.npdbelectricals.com:443
+2021-05-07 12:59:45,283 INFO ✅ Done!
+2021-05-07 12:59:45,283 INFO ▶️ Fetching cert: kitchenz.co.in:443
+2021-05-07 12:59:45,373 INFO ✅ Done!
+2021-05-07 12:59:45,373 INFO ▶️ Fetching cert: www.maruthisharma.com:443
+2021-05-07 12:59:45,686 INFO ✅ Done!
+2021-05-07 12:59:45,686 INFO ▶️ Fetching cert: www.quadrupoleindia.com:443
+2021-05-07 12:59:46,214 INFO ✅ Done!
+2021-05-07 12:59:46,214 INFO ▶️ Fetching cert: groupske.com:443
+2021-05-07 12:59:46,498 INFO ✅ Done!
+2021-05-07 12:59:46,498 INFO ▶️ Fetching cert: www.nagrins.in:443
+2021-05-07 12:59:46,771 INFO ✅ Done!
+2021-05-07 12:59:46,771 INFO ▶️ Fetching cert: lab.maruthisharma.com:443
+2021-05-07 12:59:46,947 INFO ✅ Done!
+2021-05-07 12:59:46,947 INFO ▶️ Fetching cert: bh.maruthisharma.com:443
+2021-05-07 12:59:47,218 INFO ✅ Done!
+2021-05-07 12:59:47,218 INFO ▶️ Fetching cert: blog.maruthisharma.com:443
+2021-05-07 12:59:47,360 INFO ✅ Done!
+2021-05-07 12:59:47,360 INFO ▶️ Fetching cert: quadrupoleindia.com:443
+2021-05-07 12:59:47,451 INFO ✅ Done!
+2021-05-07 12:59:47,451 INFO ▶️ Fetching cert: nagrins.in:443
+2021-05-07 12:59:47,528 INFO ✅ Done!
+2021-05-07 12:59:47,529 INFO ▶️ Fetching cert: az.maruthisharma.com:443
+2021-05-07 12:59:47,660 INFO ✅ Done!
+2021-05-07 12:59:47,660 INFO ▶️ Fetching cert: bsaicharan.com:443
+2021-05-07 12:59:47,736 INFO ✅ Done!
+2021-05-07 12:59:47,736 INFO ▶️ Fetching cert: www.creativetinge.com:443
+2021-05-07 12:59:48,567 ERROR 🚨 Error in fetching cert for: www.creativetinge.com:443 ... Skipping
+2021-05-07 12:59:48,568 INFO ▶️ Fetching cert: www.groupske.com:443
+2021-05-07 12:59:48,641 INFO ✅ Done!
