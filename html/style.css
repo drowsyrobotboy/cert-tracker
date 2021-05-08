@@ -12,3 +12,7 @@ h1.c-logo{
     font-weight: 700;
     padding: 1em;
 }
+.c-container{
+    width: 100%;
+    max-width: 900px;
+}
