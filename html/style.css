@@ -5,5 +5,10 @@ html, body{
 }
 
 body{
-    background: #f3f3f3;
+    background-color: white;
+}
+h1.c-logo{
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 1em;
 }
