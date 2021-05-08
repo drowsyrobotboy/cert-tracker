@@ -33,7 +33,7 @@ function printer(response){
         }
         tr.innerHTML = '<td>' + cert.hostname + '</td>' +
         '<td>' + cert.port + '</td>' +
-        '<td>' + eDate.getDate() + "-" + eDate.getMonth() + "-" + eDate.getFullYear() + '</td>' +
+        '<td>' + eDate.getDate() + "-" + eDate.getMonth()+1 + "-" + eDate.getFullYear() + '</td>' +
         '<td>' + risk + '</td>';
         table.appendChild(tr);
     });
