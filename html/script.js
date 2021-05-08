@@ -19,9 +19,22 @@ function printer(response){
     var table = document.getElementById('ctable');
     certs.forEach(cert => {
         var tr = document.createElement('tr');
+        var eDate = new Date(cert.expiry);
+        var rDays = Math.floor((eDate.getTime() - new Date().getTime())/86400000);
+        var risk = "";
+        if(rDays >= 15){
+          risk = "✅ Expires in " + rDays + " days";
+        } else if(rDays >= 7){
+          risk = "⚠ Expires in " + rDays + " days";
+        } else if (rDays > 0){
+          risk = "🚨 Expires in " + rDays + " days";
+        } else {
+          risk = "☠️ Expired " + Math.abs(rDays) + " days ago";
+        }
         tr.innerHTML = '<td>' + cert.hostname + '</td>' +
         '<td>' + cert.port + '</td>' +
-        '<td>' + new Date (cert.expiry) + '</td>';
+        '<td>' + eDate.getDate() + "-" + eDate.getMonth() + "-" + eDate.getFullYear() + '</td>' +
+        '<td>' + risk + '</td>';
         table.appendChild(tr);
     });
 }
