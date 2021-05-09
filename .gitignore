@@ -1,3 +1,4 @@
 excludes/*
 py/pepper.log
 html/pepper.json
+.DS_Store
