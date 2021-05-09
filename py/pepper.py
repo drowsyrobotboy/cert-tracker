@@ -10,7 +10,7 @@ import logging
 from datetime import datetime
 
 
-# Set logging & othrs
+# Set logging & others
 
 logfile = os.path.dirname(os.path.realpath(__file__))+'/pepper.log'
 outfile = os.path.dirname(os.path.realpath(__file__))+'/../html/pepper.json'
@@ -29,7 +29,7 @@ arr = [] # empty the original array to fill with Cert objects
 # Function to fetch cert expiry date
 def getExpiry(site, port):
     conn = ssl.create_connection((site, port))
-    context = ssl.SSLContext(ssl.PROTOCOL_SSLv23)
+    context = ssl.SSLContext(ssl.PROTOCOL_TLS)
     sock = context.wrap_socket(conn, server_hostname=site)
     cert = ssl.DER_cert_to_PEM_cert(sock.getpeercert(True))
     x509 = OpenSSL.crypto.load_certificate(OpenSSL.crypto.FILETYPE_PEM, cert) 
